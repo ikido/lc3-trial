@@ -1,0 +1,228 @@
+
+.container
+  .row
+    .col-xs-12.col-sm-4.col-md-3.col-lg-offset-1
+      #refinement-container
+        .title
+          Refine Your Search By
+          %img.a-plus-icon{:alt => "A plus letter emblem", :src => image_path('a-plus-letter-emblem')}/
+        
+        #refinement-list
+
+          .header
+            Book Title
+            (
+            %span.count> 25
+            )
+
+          %ul
+            %li
+              %label.category
+                %span.checkbox-wrapper
+                  %input{:type => "checkbox"}/
+                A Walk to Remember
+            %li
+              %label.subcategory
+                %span.checkbox-wrapper
+                  %input{:type => "checkbox"}/
+                Big Bad Baloons
+            %li
+              %label.subcategory
+                %span.checkbox-wrapper
+                  %input{:type => "checkbox"}/
+                Daring Rescuers
+            %li
+              %label.subcategory
+                %span.checkbox-wrapper
+                  %input{:type => "checkbox"}/
+                Hints of Darkness
+            %li
+              %label.subcategory
+                %span.checkbox-wrapper
+                  %input{:type => "checkbox"}/
+                The Treasury Secretary's Wife
+
+          .see-more
+            = link_to '(see more)', '#'
+
+        #refinement-list
+
+          .header
+            Author
+            (
+            %span.count> 17
+            )
+
+          %ul
+            %li
+              %label.category
+                %span.checkbox-wrapper
+                  %input{:type => "checkbox"}/
+                Arthur Miller
+                (
+                %span.count> 3
+                )
+            %li
+              %label.subcategory
+                %span.checkbox-wrapper
+                  %input{:type => "checkbox"}/
+                Toni Morrison
+                (
+                %span.count> 3
+                )
+            %li
+              %label.subcategory
+                %span.checkbox-wrapper
+                  %input{:type => "checkbox"}/
+                Chimamanda Ngozi Adichie
+                (
+                %span.count> 1
+                )
+            %li
+              %label.subcategory
+                %span.checkbox-wrapper
+                  %input{:type => "checkbox"}/
+                Davey Crocket
+                (
+                %span.count> 1
+                )
+            %li
+              %label.subcategory
+                %span.checkbox-wrapper
+                  %input{:type => "checkbox"}/
+                Lord Byron
+                (
+                %span.count> 1
+                )
+
+          .see-more
+            = link_to '(see more)', '#'
+            
+
+    .col-xs-12.col-sm-8.col-md-7.col-lg-6
+      #hits
+        .hit-item
+          %div
+            %a.category.lit-guide{:href => "/lit/titus-andronicus"} Lit Guide
+            %a.title{:href => "/lit/titus-andronicus"} Titus Andronicus
+          %p.blurb As the play begins, the Roman general Titus Andronicus returns to Rome from a campaign against the Goths, bringing with him several...
+        .hit-item
+          %div
+            %a.category.lit-guide{:href => "/lit/henry-v"} Lit Guide
+            %a.title{:href => "/lit/henry-v"} Henry V
+          %p.blurb The play starts with the Chorus apologizing for the theater’s limited portrayal of history. Act 1 opens on the Archbishop of...
+        .hit-item
+          %div
+            %a.category.lit-guide{:href => "/lit/as-you-like-it"} Lit Guide
+            %a.title{:href => "/lit/as-you-like-it"} As You Like It
+          %p.blurb The play begins with Orlando complaining to Adam that his brother, Oliver, has unjustly withheld his inheritance from him. Oliver...
+        .hit-item
+          %div
+            %a.category.lit-guide{:href => "/lit/much-ado-about-nothing"} Lit Guide
+            %a.title{:href => "/lit/much-ado-about-nothing"} Much Ado About Nothing
+          %p.blurb The household of Leonato, Governor of Messina, awaits the arrival of the victorious soldiers Don Pedro, Claudio and Benedick....
+        .hit-item
+          %div
+            %a.category.lit-guide{:href => "/lit/cymbeline"} Lit Guide
+            %a.title{:href => "/lit/cymbeline"} Cymbeline
+          %p.blurb In Britain during the time of Roman rule, gossip about King Cymbeline’s family strife swirls around court. Princess Imogen has...
+        .hit-item
+          %div
+            %a.category.lit-guide{:href => "/lit/coriolanus"} Lit Guide
+            %a.title{:href => "/lit/coriolanus"} Coriolanus
+          %p.blurb In the early Roman Republic, plebeian citizens revolt due to a famine. The people name Caius Martius, a patrician (aristocrat) and...
+        .hit-item
+          %div
+            %a.category.lit-guide{:href => "/lit/twelfth-night"} Lit Guide
+            %a.title{:href => "/lit/twelfth-night"} Twelfth Night
+          %p.blurb In the kingdom of Illyria, the Duke Orsino laments over his unrequited love for the Lady Olivia, who is in mourning for her brother...
+        .hit-item
+          %div
+            %a.category.lit-guide{:href => "/lit/richard-ii"} Lit Guide
+            %a.title{:href => "/lit/richard-ii"} Richard II
+          %p.blurb Richard II begins with a dispute between Henry Bolingbroke, King Richard’s cousin, and Thomas Mowbray. Both Henry and Mowbray...
+        .hit-item
+          %div
+            %a.category.lit-guide{:href => "/lit/the-tempest"} Lit Guide
+            %a.title{:href => "/lit/the-tempest"} The Tempest
+          %p.blurb A raging storm at sea threatens a ship bearing Alonso, King of Naples, and his court on their voyage home from the wedding of...
+        .hit-item
+          %div
+            %a.category.lit-guide{:href => "/lit/romeo-and-juliet"} Lit Guide
+            %a.title{:href => "/lit/romeo-and-juliet"} Romeo and Juliet
+          %p.blurb In Verona, Italy, during the Renaissance, two noble families, the Montagues and Capulets, are locked in a bitter feud. After a...
+        .hit-item
+          %div
+            %a.category.lit-guide{:href => "/lit/othello"} Lit Guide
+            %a.title{:href => "/lit/othello"} Othello
+          %p.blurb In Venice, Roderigo complains to Iago that, despite the money he's given Iago to help him woo Desdemona, she's eloped with the...
+        .hit-item
+          %div
+            %a.category.lit-guide{:href => "/lit/a-midsummer-nights-dream"} Lit Guide
+            %a.title{:href => "/lit/a-midsummer-nights-dream"} A Midsummer Night's Dream
+          %p.blurb In the palace in ancient Athens, Duke Theseus and his fiancé Hippolyta are planning their wedding festivities when Egeus, an...
+        .hit-item
+          %div
+            %a.category.lit-guide{:href => "/lit/the-merchant-of-venice"} Lit Guide
+            %a.title{:href => "/lit/the-merchant-of-venice"} The Merchant of Venice
+          %p.blurb In Venice, Bassanio, a not-so-wealthy nobleman, asks to borrow money from his dear friend and wealthy merchant Antonio, in order to...
+        .hit-item
+          %div
+            %a.category.lit-guide{:href => "/lit/macbeth"} Lit Guide
+            %a.title{:href => "/lit/macbeth"} Macbeth
+          %p.blurb Norwegians, aided by Scottish rebels, have invaded Scotland. The Scots successfully defend their country and their beloved king,...
+        .hit-item
+          %div
+            %a.category.lit-guide{:href => "/lit/king-lear"} Lit Guide
+            %a.title{:href => "/lit/king-lear"} King Lear
+          %p.blurb King Lear intends to divide his kingdom among his three daughters, so that he can enjoy old age without the burdens of power. He has...
+        .hit-item
+          %div
+            %a.category.lit-guide{:href => "/lit/julius-caesar"} Lit Guide
+            %a.title{:href => "/lit/julius-caesar"} Julius Caesar
+          %p.blurb Rome is in a state of political upheaval. It has long been a limited democracy, but Julius Caesar has just defeated his co-ruler...
+        .hit-item
+          %div
+            %a.category.lit-guide{:href => "/lit/henry-iv-part-1"} Lit Guide
+            %a.title{:href => "/lit/henry-iv-part-1"} Henry IV Part 1
+          %p.blurb In 1402 England, King Henry IV is forced to postpone his plans for crusades to the Holy Land in order to tend to unrest in England:...
+        .hit-item
+          %div
+            %a.category.lit-guide{:href => "/lit/henry-iv-part-2"} Lit Guide
+            %a.title{:href => "/lit/henry-iv-part-2"} Henry IV Part 2
+          %p.blurb Rumor delivers the induction to the play, explaining that King Henry IV’s side has won the Battle of Shrewsbury and Prince Hal has...
+        .hit-item
+          %div
+            %a.category.lit-guide{:href => "/lit/all-s-well-that-ends-well"} Lit Guide
+            %a.title{:href => "/lit/all-s-well-that-ends-well"} All's Well that Ends Well
+          %p.blurb At Rossillion, Bertram—the young count of Rossillion—is preparing to leave to go stay with the king of France, who will look after...
+        .hit-item
+          %div
+            %a.category.lit-guide{:href => "/lit/measure-for-measure"} Lit Guide
+            %a.title{:href => "/lit/measure-for-measure"} Measure for Measure
+          %p.blurb The Duke of Vienna asks a nobleman, Angelo, to assume leadership of the city and uphold the law while he—the Duke—is away...
+      #pagination
+        %div
+          %ul.ais-pagination
+            %li.ais-pagination--item.ais-pagination--item__first.ais-pagination--item__disabled
+              %span.ais-pagination--link «
+            %li.ais-pagination--item.ais-pagination--item__previous.ais-pagination--item__disabled
+              %span.ais-pagination--link ‹
+            %li.ais-pagination--item.ais-pagination--item__page.ais-pagination--item__active
+              %a.ais-pagination--link{"aria-label" => "1", :href => "https://www.litcharts.com/search?q=shakespeare&idx=litcharts_things&p=0"} 1
+            %li.ais-pagination--item.ais-pagination--item__page
+              %a.ais-pagination--link{"aria-label" => "2", :href => "https://www.litcharts.com/search?q=shakespeare&idx=litcharts_things&p=1"} 2
+            %li.ais-pagination--item.ais-pagination--item__page
+              %a.ais-pagination--link{"aria-label" => "3", :href => "https://www.litcharts.com/search?q=shakespeare&idx=litcharts_things&p=2"} 3
+            %li.ais-pagination--item.ais-pagination--item__page
+              %a.ais-pagination--link{"aria-label" => "4", :href => "https://www.litcharts.com/search?q=shakespeare&idx=litcharts_things&p=3"} 4
+            %li.ais-pagination--item.ais-pagination--item__page
+              %a.ais-pagination--link{"aria-label" => "5", :href => "https://www.litcharts.com/search?q=shakespeare&idx=litcharts_things&p=4"} 5
+            %li.ais-pagination--item.ais-pagination--item__page
+              %a.ais-pagination--link{"aria-label" => "6", :href => "https://www.litcharts.com/search?q=shakespeare&idx=litcharts_things&p=5"} 6
+            %li.ais-pagination--item.ais-pagination--item__page
+              %a.ais-pagination--link{"aria-label" => "7", :href => "https://www.litcharts.com/search?q=shakespeare&idx=litcharts_things&p=6"} 7
+            %li.ais-pagination--item.ais-pagination--item__next
+              %a.ais-pagination--link{"aria-label" => "Next", :href => "https://www.litcharts.com/search?q=shakespeare&idx=litcharts_things&p=1"} ›
+            %li.ais-pagination--item.ais-pagination--item__last
+              %a.ais-pagination--link{"aria-label" => "Last", :href => "https://www.litcharts.com/search?q=shakespeare&idx=litcharts_things&p=19"} »
